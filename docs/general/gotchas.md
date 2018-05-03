@@ -45,7 +45,6 @@ import navigationBarReducer from 'containers/NavigationBar/reducer';
 export default combineReducers({
   route: routeReducer,
   global: globalReducer,
-  language: languageProviderReducer,
   navigationBar: navigationBarReducer,
   ...asyncReducers,
 });

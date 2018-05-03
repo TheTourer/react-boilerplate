@@ -4,6 +4,9 @@ build
 node_modules
 stats.json
 
+# Logs
+yarn-error.log
+
 # Cruft
 .DS_Store
 npm-debug.log
